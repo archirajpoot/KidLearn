@@ -4,62 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KidLearn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
 <header>
-    <div class="top">
-        <div id="logo"><h2>KidLearn</h2></div>
-        <div id="home">Home</div>
-        <div id="assignment">Assignment</div>
-        <div id="profile">Profile</div>
-    </div>
+  <nav class="navbar">
+    <div class="logo">📚 KidLearn</div>
+    <div class="nav-links">
+    <div class="nav-item active">🏠 Home</div>
+    <div class="nav-item na">📝 Assignments</div>
+    <div class="nav-item na">👤 Profile</div>
+  </div>
+  </nav>
 </header>
+ <div class="main">
+<section class="welcome-back">
+   ✨ Welcome back!
+    <h1>Hey Champ! Ready To Learn? ⭐</h1>
+    <p>You have <span id="textwelcomeback">3 new assignments</span> waiting for you.
+    Let's make today awesome!</p>
+</section>
 
-<div id="welcome-back">
-    Welcome back!
-    <h2>Hey Champ! Ready To Learn?</h2>
-    You have <span id="textwelcomeback">3 new assignments</span> waiting for you.
-    Let's make today awesome!
-</div>
-
+<section class="stats">
 <div class="blocks">
-    <div>6</div>
-    <div>Total</div>
+     📋
+    <h2>6</h2>
+    <p>Total</p>
 </div>
-
 <div class="blocks">
-    <div>1</div>
-    <div>Completed</div>
+     📋
+    <h2>6</h2>
+    <p>Total</p>
 </div>
-
 <div class="blocks">
-    <div>2</div>
-    <div>In Progress</div>
+     📋
+    <h2>6</h2>
+    <p>Total</p>
 </div>
-
 <div class="blocks">
-    <div>150</div>
-    <div>Points</div>
+     📋
+    <h2>6</h2>
+    <p>Total</p>
 </div>
+</section>
 
+<section class="assignments">
+ <div class="title">
 <h2>My Assignments</h2>
 <span>Keep going</span>
-
+</div>
+<div class="cards">
 <div class="practicebox">
     <div class="border"></div>
-    <h2>Math Practice</h2>
+    <h3>Math Practice</h3>
     Mathematics
-    <div class="date">! New!</div>
+    <span class="date">! New!</span>
     <button>Start Now!</button>
 </div>
 
 <div class="practicebox">
     <div class="border"></div>
-    <h2>Story Writing</h2>
+    <h3>Story Writing</h3>
     English
     <div class="date">! Working</div>
     <button>Start Now!</button>
@@ -67,17 +79,19 @@
 
 <div class="practicebox">
     <div class="border"></div>
-    <h2>Science Project</h2>
+    <h3>Science Project</h3>
     Science
     <div class="date">! New!</div>
     <button>Start Now!</button>
 </div>
+</div>
+</section>
 
 <div>
     <h2>You are doing Amazing!</h2>
     Complete 2 more assignments to unlock a special badge!
 </div>
-
+</div>
 <footer>
     <div id="footer">
         <h2>Keep Learning. Keep Growing!</h2>
