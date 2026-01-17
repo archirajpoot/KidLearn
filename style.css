@@ -1,0 +1,13 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+.top{
+   width: 100%;
+   display:flex;
+   background-color: blueviolet;
+   justify-content: space-evenly; 
+}
