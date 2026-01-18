@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,102 +8,212 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
-  <nav class="navbar">
-    <div class="logo">📚 KidLearn</div>
-    <div class="nav-links">
-    <div class="nav-item active">🏠 Home</div>
-    <div class="nav-item na">📝 Assignments</div>
-    <div class="nav-item na">👤 Profile</div>
-  </div>
-  </nav>
-</header>
- <div class="main">
-<section class="welcome-back">
-   ✨ Welcome back!
-    <h1>Hey Champ! Ready To Learn? ⭐</h1>
-    <p>You have <span id="textwelcomeback">3 new assignments</span> waiting for you.
-    Let's make today awesome!</p>
-</section>
+        <nav class="navbar">
+            <div class="logo">📚 KidLearn</div>
+            <div class="nav-links">
+                <div class="nav-item active">🏠 Home</div>
+                <div class="nav-item na">📝 Assignments</div>
+                <div class="nav-item na">👤 Profile</div>
+            </div>
+        </nav> 
 
-<section class="stats">
-<div class="blocks">
-     📋
-    <h2>6</h2>
-    <p>Total</p>
-</div>
-<div class="blocks">
-     📋
-    <h2>6</h2>
-    <p>Total</p>
-</div>
-<div class="blocks">
-     📋
-    <h2>6</h2>
-    <p>Total</p>
-</div>
-<div class="blocks">
-     📋
-    <h2>6</h2>
-    <p>Total</p>
-</div>
-</section>
+    <div class="main">
+        <section class="welcome-back">
+            ✨ Welcome back!
+            <h1>Hey Champ! Ready To Learn? ⭐</h1>
+            <p>You have <span id="textwelcomeback">3 new assignments</span> waiting for you.
+                Let's make today awesome!</p>
+        </section>
 
-<section class="assignments">
- <div class="title">
-<h2>My Assignments</h2>
-<span>Keep going</span>
-</div>
-<div class="cards">
-<div class="practicebox">
-    <div class="border"></div>
-    <h3>Math Practice</h3>
-    Mathematics
-    <span class="date">! New!</span>
-    <button>Start Now!</button>
-</div>
+        <section class="stats">
+            <div class="blocks">
+                📋
+                <h2>6</h2>
+                <p>Total</p>
+            </div>
+            <div class="blocks">
+                😵‍💫
+                <h2>2</h2>
+                <p>Incomplete</p>
+            </div>
+            <div class="blocks">
+                👌
+                <h2>1</h2>
+                <p>Completed</p>
+            </div>
+            <div class="blocks">
+                👏
+                <h2>150</h2>
+                <p>Points</p>
+            </div>
+        </section>
 
-<div class="practicebox">
-    <div class="border"></div>
-    <h3>Story Writing</h3>
-    English
-    <div class="date">! Working</div>
-    <button>Start Now!</button>
-</div>
-
-<div class="practicebox">
-    <div class="border"></div>
-    <h3>Science Project</h3>
-    Science
-    <div class="date">! New!</div>
-    <button>Start Now!</button>
-</div>
-</div>
-</section>
-
-<div>
-    <h2>You are doing Amazing!</h2>
-    Complete 2 more assignments to unlock a special badge!
-</div>
-</div>
-<footer>
-    <div id="footer">
-        <h2>Keep Learning. Keep Growing!</h2>
-        <div>
-            <button>Home</button>
-            <button>Help</button>
-            <button>Rewards</button>
+        <div class="section-header">
+            <h2>🏆 My Assignments</h2>
+            <span class="keep-going">↗ Keep going!</span>
         </div>
-        <p>Made with Love for Kids © 2024</p>
-    </div>
-</footer>
+
+        <div class="assignment-grid">
+
+            <!-- CARD 1 -->
+            <div class="card purple">
+                <div class="top-line"></div>
+
+                <div class="card-top">
+                    <div class="title">
+                        <span class="icon">🔢</span>
+                        <div>
+                            <h3>Math Practice</h3>
+                            <p>📘 Mathematics</p>
+                        </div>
+                    </div>
+                    <span class="time">⏰ Tomorrow</span>
+                </div>
+
+                <span class="badge new">✨ New!</span>
+
+                <button class="btn purple-btn">Start Now 🚀</button>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card orange">
+                <div class="top-line"></div>
+
+                <div class="card-top">
+                    <div class="title">
+                        <span class="icon">✍️</span>
+                        <div>
+                            <h3>Story Writing</h3>
+                            <p>📘 English</p>
+                        </div>
+                    </div>
+                    <span class="time">⏰ In 3 days</span>
+                </div>
+
+                <span class="badge working">🟠 Working</span>
+
+                <button class="btn orange-btn">Start Now ✏️</button>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card blue">
+                <div class="top-line"></div>
+
+                <div class="card-top">
+                    <div class="title">
+                        <span class="icon">🔬</span>
+                        <div>
+                            <h3>Science Project</h3>
+                            <p>📘 Science</p>
+                        </div>
+                    </div>
+                    <span class="time">⏰ Next Week</span>
+                </div>
+
+                <span class="badge new">✨ New!</span>
+
+                <button class="btn blue-btn">Start Now 🚀</button>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card green">
+                <div class="top-line"></div>
+
+                <div class="card-top">
+                    <div class="title">
+                        <span class="icon">🎨</span>
+                        <div>
+                            <h3>Drawing Activity</h3>
+                            <p>📘 Art</p>
+                        </div>
+                    </div>
+                    <span class="time">✔ Completed</span>
+                </div>
+
+                <span class="badge done">✔ Done</span>
+
+                <button class="btn green-btn">View Details 👀</button>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="card purple">
+                <div class="top-line"></div>
+
+                <div class="card-top">
+                    <div class="title">
+                        <span class="icon">📚</span>
+                        <div>
+                            <h3>Hindi Poem</h3>
+                            <p>📘 Hindi</p>
+                        </div>
+                    </div>
+                    <span class="time">⏰ In 2 days</span>
+                </div>
+
+                <span class="badge working">🟠 Working</span>
+
+                <button class="btn purple-btn">Start Now 🚀</button>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="card orange">
+                <div class="top-line"></div>
+
+                <div class="card-top">
+                    <div class="title">
+                        <span class="icon">🎯</span>
+                        <div>
+                            <h3>Number Games</h3>
+                            <p>📘 Mathematics</p>
+                        </div>
+                    </div>
+                    <span class="time">⏰ Today</span>
+                </div>
+
+                <span class="badge new">✨ New!</span>
+
+                <button class="btn orange-btn">Start Now 🚀</button>
+            </div>
+
+        </div>
+        </section>
+        
+
+        <div class="motivation">
+            <h2>⭐ ⭐ ⭐</h2>
+            <h1>You’re doing amazing! 🎉</h1>
+            <p>Complete 2 more assignments to unlock a special badge!</p>
+        </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-left">
+                <h3>✨ Keep Learning, Keep Growing! ✨</h3>
+
+                <div class="footer-links">
+                    <a href="#">🏠 Home</a>
+                    <a href="#">📘 Help</a>
+                    <a href="#">⭐ Rewards</a>
+                </div>
+
+                <p>Made with ❤️ for Kids © 2026</p>
+            </div>
+
+            <div class="footer-right">
+                <span>🌟</span>
+                <span>🎨</span>
+                <span>📚</span>
+                <span>🎯</span>
+                <span>🏆</span>
+            </div>
+        </footer>
 
 </body>
+
 </html>
