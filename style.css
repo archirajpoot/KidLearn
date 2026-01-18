@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 
 /* ===== BODY ===== */
 body {
-   overflow-x: hidden;
+  overflow-x: hidden;
   background: #fff8e7;
   color: #4b2b63;
   padding-top: 80px;
@@ -291,8 +291,11 @@ body {
   color: white;
   text-decoration: none;
   font-weight: 500;
+  transition: transform 0.2s ease;
 }
-
+.footer-links :hover{
+    transform: scale(1.2) rotate(-2deg);
+}
 .footer-left p {
   font-size: 14px;
   opacity: 0.9;
