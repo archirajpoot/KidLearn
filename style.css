@@ -6,7 +6,6 @@
   font-family: 'Fredoka', sans-serif;
 }
 
-/* ===== BODY ===== */
 body {
   overflow-x: hidden;
   background: #fff8e7;
@@ -14,7 +13,6 @@ body {
   padding-top: 80px;
 }
 
-/* ===== NAVBAR ===== */
 .navbar {
   position: fixed;
   top: 0;
@@ -63,13 +61,11 @@ body {
 .nav-item.na:hover {
   background: rgba(255,255,255,0.25);
 }
-
-/* ===== MAIN WRAPPER (ONLY SIDE SPACING CONTROLLER) ===== */
 .main {
   padding: 0 40px;
 }
 
-/* ===== WELCOME SECTION ===== */
+
 .welcome-back {
   background: linear-gradient(90deg, #9b5de5, #f15bb5);
   color: white;
@@ -93,7 +89,6 @@ body {
   font-weight: 500;
 }
 
-/* ===== STATS ===== */
 .stats {
   display: flex;
   justify-content: space-between;
@@ -118,8 +113,6 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
-
-/* ===== SECTION HEADER ===== */
 .section-header {
   display: flex;
   justify-content: space-between;
@@ -137,17 +130,15 @@ body {
   font-weight: 500;
 }
 
-/* ===== ASSIGNMENT GRID ===== */
 .assignment-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 30px;
-  max-width: 1200px;   /* 🔥 MAIN FIX */
+  max-width: 1200px;
   margin: 0 auto;  
 }
 
-/* ===== CARDS ===== */
 .card {
   width: 380px;
   background: white;
@@ -163,7 +154,6 @@ body {
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-/* ===== TOP BORDER ===== */
 .top-line {
   position: absolute;
   top: 0;
@@ -183,7 +173,6 @@ body {
 .blue .top-line   { background: linear-gradient(to right,#22d3ee,#3b82f6); }
 .green .top-line  { background: #22c55e; }
 
-/* ===== CARD CONTENT ===== */
 .card-top {
   display: flex;
   justify-content: space-between;
@@ -218,7 +207,6 @@ body {
   color: #555;
 }
 
-/* ===== BADGES ===== */
 .badge {
   display: inline-block;
   margin: 15px 0;
@@ -236,7 +224,6 @@ body {
 .working { background: #ffedd5; color: #c2410c; }
 .done { background: #dcfce7; color: #15803d; }
 
-/* ===== BUTTONS ===== */
 .btn {
   width: 100%;
   padding: 12px;
@@ -252,7 +239,6 @@ body {
 .blue-btn   { background: linear-gradient(to right,#22d3ee,#3b82f6); }
 .green-btn  { background: #22c55e; }
 
-/* ===== MOTIVATION ===== */
 .motivation {
   margin: 50px 0;
   padding: 40px;
@@ -266,7 +252,6 @@ body {
   margin: 10px 0;
 }
 
-/* ===== FOOTER ===== */
 .footer {
   background: linear-gradient(to right, #22d3ee, #3b82f6);
   color: white;
@@ -306,8 +291,7 @@ body {
   gap: 18px;
   font-size: 26px;
 }
-
-/* ===== RESPONSIVE ===== */
+/* Resposiveness */
 @media (max-width: 768px) {
   .main {
     padding: 0 20px;
